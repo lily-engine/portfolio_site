@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+    <html lang="ja">
+    <!-- OGP使用の宣言 -->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  js/jq -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="practice.js"></script>
+
+    <!--  bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <!--  stylesheet -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css"> 
+
+    <!--  favicon -->
+    <link rel="shortcut icon" href="./img/favicon32x32.svg">
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="./img/android-chrome-192x192.png">
+
+<body>
+    <header>
+        <div class="container clear header">
+            <div class="header-left">
+                <p class="title">菊池百合子 Portfollio</p>
+            </div>
+
+            <div class="header-right">
+                <ul class="header-list clear">
+                    <li class="header-item"><a href="#">ABOUT</a></li>
+                    <li class="header-item"><a href="#">BIOGRAPHY</a></li>
+                    <li class="header-item"><a href="#">WORKS</a></li>
+                    <li class="header-item"><a href="#">ARTICLES</a></li>
+                    <li class="header-item"><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="top py-5">
+        <div class="container clear">
+            <p class="welcome pt-5 text-white font-weight-bolder">HELLO!</p>
+            <p class="title py-5 text-white font-weight-bolder">
+                バックエンドエンジニアを目指して<br> 
+                転職活動中です。<br>
+                興味を持っていただけましたら<br>
+                お気軽にご連絡ください📩
+            </p>
+        </div>
+    </section>
+
+
+    <section class="about section">
+        <div class="container clear">
+            <h2 class="section-title">ABOUT</h2>
+            <div class="about-left">
+                <img src="./img/kikuchi-photo.jpg" alt="菊池百合子">
+                <div class="sns">
+                    <div class="antedly">
+                        Wantedly：
+                    </div>
+                    <div class="twitter">
+                        Twitter：
+                    </div>
+                    <div class="GitHub">
+                        GitHub：
+                    </div>
+                </div>
+            </div>
+            <div class="about-right py-3">
+                <h3 class="about-main">菊池 百合子（Yuriko KIKUCHI）</h3>
+                <p class="about-sub pt-3">
+                    大学在籍中から文章を書き始め、フリーランスとして独立後、4年以上ライターと編集者をしている。主に「地方」をテーマにインタビューを重ねる。この仕事の大好きなところは、人と出会ってインタビューができるところ。<br><br>
+                    ライターとして広めるだけでなく一歩踏み込んだ課題解決をできるようになりたいと思い、独学でプログラミングを勉強しながら転職活動の準備中。<br><br>
+
+                    沖縄県那覇市と首都圏の2拠点生活。<br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="news section">
+        <div class="container clear">
+            <h2 class="section-title">BIOGRAPHY</h2>
+                <article class="biography">
+                    <div class="bio-item">
+                        <p class="bio-date">2017.03</p>
+                        <p class="bio-info">慶應義塾大学　文学部民族学考古学専攻 卒業</p>
+                    </div>
+                    <div class="bio-item">
+                        <p class="bio-date">2017.04 - 2018.02</p>
+                        <p class="bio-info">株式会社BAKEにて勤務。BAKE海老名店、BAKE池袋店の副店長を担当。</p>
+                    </div>
+                    <div class="bio-item">
+                        <p class="bio-date">2018.02 - 現在</p>
+                        <p class="bio-info">個人事業主として独立し、ライター・編集者として活動（<a href="https://www.foriio.com/kikuchi410/categories/Pick+up">ポートフォリオ</a>）。</p>
+                    </div>
+                    <div class="bio-item">
+                        <p class="bio-date">2022.01 - 現在</p>
+                        <p class="bio-info">バックエンドの学習を開始。独学でエンジニア転職を目指し邁進中。</p>
+                    </div>
+                </article><!-- /.biography -->
+                <h3>◆ 現職までの経験</h3>
+        </div>
+    </section>
+
+
+    <section class="station py-5">
+        <div class="container clear">
+            <h2 class="section-title">WORKS</h2>
+        </div>
+    </section>
+
+    <section class="team section">
+        <div class="container clear">
+            <h2 class="section-title">ARTICLES</h2>
+
+        </div>
+    </section>
+
+    <!-- モーダル -->
+    <div class="modal">
+        <div class="bigimg"><img src="" alt=""></div>
+        <p class="close-btn"><a href="">✖</a></p>
+    </div>
+
+    <!-- モーダル終了 -->
+
+    <section class="contact section wrap">
+        <div class="container clear">
+            <h2 class="section-title">CONTACT</h2>
+            <p class="announce pb-5">本サイトをご覧いただきありがとうございます。<br>お仕事のご紹介、その他お問い合わせなどにつきましては、下記のフォームよりお願いいたします。<br>
+            <small>※ ボタンを押すと、Googleフォームにリンクします。</small></p>
+            <div class="btns">
+                <button type="submit" class="btn btn-offline">
+                    <a href="#" target="_blank" class="font-weight-bold">メールを送信する</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu section">
+        <div class="container clear">
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container clear">
+            <hr>
+            <p class="copyright">Photo by 小松﨑拓郎　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Copyright(C) 2022 菊池百合子</p>
+        </div>
+    </footer>
+
+    <div id="page_top"><a href="#">TOP</a></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
