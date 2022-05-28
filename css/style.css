@@ -131,6 +131,10 @@ about
 ============================ */
 
 .about {
+    background-color: white;
+}
+
+.news {
     background-color: #FFFAFA;
 }
 
