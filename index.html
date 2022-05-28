@@ -1,5 +1,7 @@
 <!DOCTYPE html>
     <html lang="ja">
+    <title>Yuriko Kikuchi's portfolio</title>
+
     <!-- OGP使用の宣言 -->
     <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 
@@ -37,11 +39,11 @@
 
             <div class="header-right">
                 <ul class="header-list clear">
-                    <li class="header-item"><a href="#">ABOUT</a></li>
-                    <li class="header-item"><a href="#">BIOGRAPHY</a></li>
-                    <li class="header-item"><a href="#">WORKS</a></li>
-                    <li class="header-item"><a href="#">ARTICLES</a></li>
-                    <li class="header-item"><a href="#">CONTACT</a></li>
+                    <li class="header-item"><a href="#about">ABOUT</a></li>
+                    <li class="header-item"><a href="#biography">BIOGRAPHY</a></li>
+                    <li class="header-item"><a href="#works">WORKS</a></li>
+                    <!-- <li class="header-item"><a href="#articles">ARTICLES</a></li> -->
+                    <li class="header-item"><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -49,8 +51,8 @@
 
     <section class="top py-5">
         <div class="container clear">
-            <p class="welcome pt-5 text-white font-weight-bolder">HELLO!</p>
-            <p class="title py-5 text-white font-weight-bolder">
+            <p class="welcome pt-5 font-weight-bolder">HELLO!</p>
+            <p class="title py-5 font-weight-bolder">
                 バックエンドエンジニアを目指して<br> 
                 転職活動中です。<br>
                 興味を持っていただけましたら<br>
@@ -59,21 +61,20 @@
         </div>
     </section>
 
-
     <section class="about section">
         <div class="container clear">
-            <h2 class="section-title">ABOUT</h2>
+            <h2 class="section-title" id="about">ABOUT</h2>
             <div class="about-left">
                 <img src="./img/kikuchi-photo.jpg" alt="菊池百合子">
                 <div class="sns">
-                    <div class="antedly">
-                        Wantedly：
+                    <div class="wantedly">
+                        <a href="https://www.wantedly.com/id/yuriko_kikuchi_h" target="_blank">Wantedly</a>
                     </div>
                     <div class="twitter">
-                        Twitter：
+                        <a href="https://twitter.com/lily_engine" target="_blank">Twitter</a>
                     </div>
                     <div class="GitHub">
-                        GitHub：
+                        <a href="https://github.com/lily-engine" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
@@ -89,10 +90,9 @@
         </div>
     </section>
 
-
     <section class="news section">
         <div class="container clear">
-            <h2 class="section-title">BIOGRAPHY</h2>
+            <h2 class="section-title" id="biography">BIOGRAPHY</h2>
                 <article class="biography">
                     <div class="bio-item">
                         <p class="bio-date">2017.03</p>
@@ -104,47 +104,106 @@
                     </div>
                     <div class="bio-item">
                         <p class="bio-date">2018.02 - 現在</p>
-                        <p class="bio-info">個人事業主として独立し、ライター・編集者として活動（<a href="https://www.foriio.com/kikuchi410/categories/Pick+up">ポートフォリオ</a>）。</p>
+                        <p class="bio-info">個人事業主として独立し、ライター・編集者として活動（<a href="https://www.foriio.com/kikuchi410/categories/Pick+up" target="_blank">ポートフォリオ</a>）。</p>
                     </div>
                     <div class="bio-item">
                         <p class="bio-date">2022.01 - 現在</p>
                         <p class="bio-info">バックエンドの学習を開始。独学でエンジニア転職を目指し邁進中。</p>
                     </div>
                 </article><!-- /.biography -->
-                <h3>◆ 現職までの経験</h3>
+                <article class="skills mt-5 mb-5">
+                    <h3>◆Skills</h3>
+                    <div class="programming">
+                      <h4>IT・プログラミング</h4>
+                      <p>HTML, CSS, Bootstrap5, JavaScript, jQuery3.6, Python, Flask, , MySQL, Git/GitHub, AWS</p>
+                    </div>
+                    <div class="experience">
+                      <h4>現職までの経験</h4>
+                      <p class="paragraph">現職では、Web・雑誌の記事を制作するインタビュー・執筆・編集・ディレクションを担当しています。<br>
+                      ライターとしてアサインされた案件でも、本来は業務の範囲外であったが、プロジェクトを通じてより価値ある成果を出せるように、空白のポジションだった編集に立候補することもありました。</p>
+                      <ol class="paragraph">
+                        <li>執筆のガイドラインの作成と共有</li>
+                        <li>チームで共通した目標を掲げ、5名のライターの制作方針を揃える</li>
+                        <li>オンラインでも積極的にコミュニケーションを重ねる</li>
+                      </ol>
+                      <p>といった行動を自分からおこします。フリーランスとして自ら仕事を提案し、仕事をつくりだす経験を重ねてきました</p>
+                    </div>
+                    <div class="others">
+                      <h4>その他</h4>
+                      <p>普通自動車免許</p>
+                    </div>
+                  </article><!-- /.skills -->
         </div>
     </section>
-
 
     <section class="station py-5">
         <div class="container clear">
-            <h2 class="section-title">WORKS</h2>
+            <h2 class="section-title" id="works">WORKS</h2>
+                <article class="work2">
+                  <a class="link" href="https://pure-garden-14346.herokuapp.com/" target="_blank">
+                    <h3>◆ 学習項目チェックリスト「ぴよぴよエンジニア」</h3>
+                  </a>
+                  <div class="work-item">
+                    <div class="work-img">
+                      <a href="https://piyopiyo-engineer.net/" target="_blank">
+                        <img class="img-link" src="./img/work-1.png">
+                      </a>
+                    </div>
+                      <ul class="work-info">
+                        <li>制作時期 : 2022年2月上旬～4月下旬（3ヶ月間）</li>
+                        <li>使用技術 : <br>HTML, CSS, Bootstrap, Python, Flask, MySQL, AWS</li>
+                        <li>主な機能 : <br>チェックリスト、パーセンテージの計算、結果のツイート</li>
+                        <li>
+                          ソースコード(GitHub) : <br><a class="link" target="_blank" href="https://github.com/lily-engine/Bravery">https://github.com/lily-engine/Bravery</a>
+                        </li>
+                      </ul>
+                  </div>
+                </article><!-- /.work2 -->
+                <article class="work1">
+                    <a class="link" href="#">
+                      <h3>◆菊池百合子 Portfolio(当サイト)</h3>
+                    </a>
+                    <div class="work-item">
+                      <div class="work-img">
+                        <a href="#">
+                          <img class="img-link" src="./img/work-2.png">
+                        </a>
+                      </div>
+                        <ul class="work-info">
+                          <li>制作時期 : 2022年5月下旬</li>
+                          <li>使用技術 : <br>HTML, CSS,  JavaScript</li>
+                          <li>主な機能 : <br>自己紹介ページ、お問い合わせフォーム</li>
+                          <li>
+                            ソースコード(GitHub) : <br><a class="link" target="_blank" href="https://github.com/lily-engine/portfolio_site">https://github.com/lily-engine/portfolio_site</a>
+                          </li>
+                        </ul>
+                    </div>
+                </article><!-- /.work1 -->
         </div>
     </section>
 
-    <section class="team section">
+    <!-- <section class="team section">
         <div class="container clear">
-            <h2 class="section-title">ARTICLES</h2>
+            <h2 class="section-title" id="articles">ARTICLES</h2>
 
         </div>
-    </section>
+    </section> -->
 
     <!-- モーダル -->
     <div class="modal">
         <div class="bigimg"><img src="" alt=""></div>
         <p class="close-btn"><a href="">✖</a></p>
     </div>
-
     <!-- モーダル終了 -->
 
     <section class="contact section wrap">
         <div class="container clear">
-            <h2 class="section-title">CONTACT</h2>
+            <h2 class="section-title" id="contact">CONTACT</h2>
             <p class="announce pb-5">本サイトをご覧いただきありがとうございます。<br>お仕事のご紹介、その他お問い合わせなどにつきましては、下記のフォームよりお願いいたします。<br>
             <small>※ ボタンを押すと、Googleフォームにリンクします。</small></p>
             <div class="btns">
                 <button type="submit" class="btn btn-offline">
-                    <a href="#" target="_blank" class="font-weight-bold">メールを送信する</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScUMqWTYq3kA9qn_ItiAnsyoO264wk34hdmCnPjxGT5kK5qYw/viewform?usp=sf_link" target="_blank" class="font-weight-bold">お問い合わせ</a>
                 </button>
             </div>
         </div>
@@ -159,7 +218,7 @@
     <footer>
         <div class="container clear">
             <hr>
-            <p class="copyright">Photo by 小松﨑拓郎　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Copyright(C) 2022 菊池百合子</p>
+            <p class="copyright">Copyright(C) 2022 菊池百合子</p>
         </div>
     </footer>
 
